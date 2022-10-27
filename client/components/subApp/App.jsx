@@ -2,7 +2,7 @@ import React from 'react'
 import { getFruits } from '../../apis/fruits'
 
 //import components
-import Blog from '../subBlogPosts/Blog.jsx'
+import Blog from '../subBlog/Blog.jsx'
 function App() {
   return (
     <>
