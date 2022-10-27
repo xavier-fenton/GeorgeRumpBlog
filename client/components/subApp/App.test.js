@@ -3,7 +3,7 @@ import { Provider } from 'react-redux'
 import { screen, render } from '@testing-library/react'
 
 import App from './App'
-import store from '../store'
+import store from '../../store'
 import { fetchFruits } from '../actions'
 
 jest.mock('../actions')

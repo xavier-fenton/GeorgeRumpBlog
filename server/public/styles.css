@@ -1,3 +1,9 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+.posts-styling {
+  border: 2px solid red;
+  border-radius: 5px;
+}
