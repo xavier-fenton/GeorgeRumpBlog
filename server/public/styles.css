@@ -9,3 +9,9 @@ body {
   border: 2px solid red;
   border-radius: 5px;
 }
+
+.dancing-anime{
+  position: absolute;
+  left: 73%;
+  bottom: 17%;
+}
