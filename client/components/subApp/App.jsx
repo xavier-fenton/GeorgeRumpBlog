@@ -1,17 +1,9 @@
 import React from 'react'
 import { getFruits } from '../../apis/fruits'
-// import { useDispatch, useSelector } from 'react-redux'
 
-// import { fetchFruits, selectFruits } from '../slices/fruits'
-
+//import components
+import Blog from '../subBlogPosts/Blog.jsx'
 function App() {
-  // const [fruits, setFruits] = useState(fruits)
-  // // const dispatch = useDispatch()
-
-  // useEffect(async () => {
-  //   getFruits(fruits)
-  // }, [])
-
   return (
     <>
       <div className="app">
@@ -20,6 +12,7 @@ function App() {
           Plan: setup as if this is an admin page, because we just want people
           to see the blogs posts.
         </p>
+        <Blog />
       </div>
     </>
   )
