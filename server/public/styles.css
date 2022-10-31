@@ -4,6 +4,14 @@ body {
 
 
 .posts-styling {
+  width: 65%;
+  flex: 0;
   border: 2px solid red;
   border-radius: 5px;
+}
+
+.dancing-anime{
+  position: absolute;
+  left: 73%;
+  bottom: 17%;
 }
