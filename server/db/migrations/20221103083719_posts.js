@@ -1,7 +1,7 @@
 exports.up = function (knex) {
   return knex.schema.createTable('posts', (table) => {
     table.increments('id')
-    table.timestamp('created_at')
+    table.timestamp('created_at').defaultTo(knex.fn.now())
     table.string('post')
   })
 }
