@@ -1,5 +1,4 @@
 import React from 'react'
-import { getFruits } from '../../apis/fruits'
 
 //import components
 import Blog from '../subBlog/Blog.jsx'
