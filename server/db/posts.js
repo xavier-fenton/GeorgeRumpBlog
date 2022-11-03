@@ -6,7 +6,6 @@ function getPosts(db = connection) {
 function addPost(post, created_at, db = connection) {
   return db('posts')
     .insert({
-      created_at: created_at,
       id: post.id,
       post: post.post,
     })
