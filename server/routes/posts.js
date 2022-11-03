@@ -4,7 +4,7 @@ const db = require('../db/posts')
 
 const router = express.Router()
 
-router.get('/', (req, res) => {
+router.get('*', (req, res) => {
   db.getPosts()
     .then((postResults) => {
       res.json(postResults)
