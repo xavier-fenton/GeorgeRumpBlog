@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
     })
     .catch((err) => {
       console.log(err)
-      res.status(500).json({ message: 'Somthing went wrong' })
+      res.status(500).json({ message: 'Take a look at Routes' })
     })
 })
 
@@ -25,7 +25,7 @@ router.post('/', (req, res) => {
     })
     .catch((err) => {
       console.log(err)
-      res.status(500).json({ message: 'something went wrong' })
+      res.status(500).json({ message: 'Take a look at Routes' })
     })
 })
 
