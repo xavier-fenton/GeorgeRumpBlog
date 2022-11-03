@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react'
 import { getPosts } from '../../apis/posts'
 
 const BlogPosts = () => {
-  const [post, setPost] = useState([])
+  const [post, viewPost] = useState([])
 
   useEffect(() => {
     getPosts()
       .then((post) => {
-        setPost(post)
+        viewPost(post)
       })
       .catch((err) => {
         console.log(err)
