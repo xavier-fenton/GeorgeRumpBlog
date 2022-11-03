@@ -16,4 +16,17 @@ router.get('/', (req, res) => {
     })
 })
 
+router.post('/', (req, res) => {
+  let post = req.body
+  db.addPost(post)
+    .then(() => {
+      res.sendStatus(201)
+      return null
+    })
+    .catch((err) => {
+      console.log(err)
+      res.status(500).json({ message: 'something went wrong' })
+    })
+})
+
 module.exports = router
