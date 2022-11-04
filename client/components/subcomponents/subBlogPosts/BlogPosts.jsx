@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { getPosts } from '../../apis/posts'
+import { getPosts } from '../../../apis/posts'
 
 const BlogPosts = () => {
   const [post, viewPost] = useState([])

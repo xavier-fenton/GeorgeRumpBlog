@@ -1,7 +1,7 @@
 import React from 'react'
 
 //import components
-import Blog from '../subBlog/Blog.jsx'
+import Blog from './subcomponents/subBlog/Blog'
 function App() {
   return (
     <>
