@@ -1,7 +1,7 @@
 import React from 'react'
 
 //import components
-import Blog from '../subBlog/Blog.jsx'
+import Blog from './subcomponents/subBlog/Blog'
 function App() {
   return (
     <>
@@ -11,6 +11,10 @@ function App() {
           Plan: Main Plan anyone can type, and post, Stretch: comic strip style
           see root directory image for example. Stretch Maybe put text into
           speech bubbles.
+        </p>
+        <p>
+          note: make a setime out to change the image every ten seconds or
+          something
         </p>
         <Blog />
       </div>
