@@ -12,6 +12,10 @@ function App() {
           see root directory image for example. Stretch Maybe put text into
           speech bubbles.
         </p>
+        <p>
+          note: make a setime out to change the image every ten seconds or
+          something
+        </p>
         <Blog />
       </div>
     </>
